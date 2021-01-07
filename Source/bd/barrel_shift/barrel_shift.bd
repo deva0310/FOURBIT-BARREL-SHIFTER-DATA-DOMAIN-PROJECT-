@@ -1,0 +1,231 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x679A1D1F679A1D1F",
+      "device": "xc7a35tftg256-1",
+      "name": "barrel_shift",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "MUX_21_0": "",
+      "MUX_21_1": "",
+      "MUX_21_2": "",
+      "MUX_21_3": "",
+      "MUX_21_4": "",
+      "MUX_21_5": "",
+      "MUX_21_6": "",
+      "MUX_21_7": ""
+    },
+    "ports": {
+      "D1": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "D0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "D2": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "D3": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "S0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "S1": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "Y0": {
+        "direction": "O"
+      },
+      "Y1": {
+        "direction": "O"
+      },
+      "Y2": {
+        "direction": "O"
+      },
+      "Y3": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "MUX_21_0": {
+        "vlnv": "xilinx.com:user:MUX_21:1.0",
+        "xci_name": "barrel_shift_MUX_21_0_0"
+      },
+      "MUX_21_1": {
+        "vlnv": "xilinx.com:user:MUX_21:1.0",
+        "xci_name": "barrel_shift_MUX_21_0_1"
+      },
+      "MUX_21_2": {
+        "vlnv": "xilinx.com:user:MUX_21:1.0",
+        "xci_name": "barrel_shift_MUX_21_0_2"
+      },
+      "MUX_21_3": {
+        "vlnv": "xilinx.com:user:MUX_21:1.0",
+        "xci_name": "barrel_shift_MUX_21_2_0"
+      },
+      "MUX_21_4": {
+        "vlnv": "xilinx.com:user:MUX_21:1.0",
+        "xci_name": "barrel_shift_MUX_21_0_4"
+      },
+      "MUX_21_5": {
+        "vlnv": "xilinx.com:user:MUX_21:1.0",
+        "xci_name": "barrel_shift_MUX_21_0_5"
+      },
+      "MUX_21_6": {
+        "vlnv": "xilinx.com:user:MUX_21:1.0",
+        "xci_name": "barrel_shift_MUX_21_0_6"
+      },
+      "MUX_21_7": {
+        "vlnv": "xilinx.com:user:MUX_21:1.0",
+        "xci_name": "barrel_shift_MUX_21_0_7"
+      }
+    },
+    "nets": {
+      "Net": {
+        "ports": [
+          "S0",
+          "MUX_21_0/sel",
+          "MUX_21_1/sel",
+          "MUX_21_2/sel",
+          "MUX_21_3/sel"
+        ]
+      },
+      "Net1": {
+        "ports": [
+          "S1",
+          "MUX_21_4/sel",
+          "MUX_21_5/sel",
+          "MUX_21_7/sel",
+          "MUX_21_6/sel"
+        ]
+      },
+      "D0_1": {
+        "ports": [
+          "D0",
+          "MUX_21_0/a",
+          "MUX_21_2/b"
+        ]
+      },
+      "D1_1": {
+        "ports": [
+          "D1",
+          "MUX_21_1/a",
+          "MUX_21_3/b"
+        ]
+      },
+      "D2_1": {
+        "ports": [
+          "D2",
+          "MUX_21_2/a",
+          "MUX_21_0/b"
+        ]
+      },
+      "D3_1": {
+        "ports": [
+          "D3",
+          "MUX_21_3/a",
+          "MUX_21_1/b"
+        ]
+      },
+      "MUX_21_0_y": {
+        "ports": [
+          "MUX_21_0/y",
+          "MUX_21_4/a",
+          "MUX_21_5/b"
+        ]
+      },
+      "MUX_21_1_y": {
+        "ports": [
+          "MUX_21_1/y",
+          "MUX_21_5/a",
+          "MUX_21_7/b"
+        ]
+      },
+      "MUX_21_2_y": {
+        "ports": [
+          "MUX_21_2/y",
+          "MUX_21_7/a",
+          "MUX_21_6/b"
+        ]
+      },
+      "MUX_21_3_y": {
+        "ports": [
+          "MUX_21_3/y",
+          "MUX_21_6/a",
+          "MUX_21_4/b"
+        ]
+      },
+      "MUX_21_4_y": {
+        "ports": [
+          "MUX_21_4/y",
+          "Y0"
+        ]
+      },
+      "MUX_21_5_y": {
+        "ports": [
+          "MUX_21_5/y",
+          "Y1"
+        ]
+      },
+      "MUX_21_7_y": {
+        "ports": [
+          "MUX_21_7/y",
+          "Y2"
+        ]
+      },
+      "MUX_21_6_y": {
+        "ports": [
+          "MUX_21_6/y",
+          "Y3"
+        ]
+      }
+    }
+  }
+}

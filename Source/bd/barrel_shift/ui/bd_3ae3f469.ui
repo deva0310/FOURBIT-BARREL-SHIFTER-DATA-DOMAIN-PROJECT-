@@ -1,0 +1,44 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.11515",
+   "Default View_TopLeft":"-289,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port D1 -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace port D0 -pg 1 -lvl 0 -x 0 -y 390 -defaultsOSRD
+preplace port D2 -pg 1 -lvl 0 -x 0 -y 360 -defaultsOSRD
+preplace port D3 -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port S0 -pg 1 -lvl 1 -x 70 -y 600 -defaultsOSRD -bot
+preplace port S1 -pg 1 -lvl 2 -x 250 -y 600 -defaultsOSRD -bot
+preplace port Y0 -pg 1 -lvl 3 -x 380 -y 80 -defaultsOSRD
+preplace port Y1 -pg 1 -lvl 3 -x 380 -y 220 -defaultsOSRD
+preplace port Y2 -pg 1 -lvl 3 -x 380 -y 360 -defaultsOSRD
+preplace port Y3 -pg 1 -lvl 3 -x 380 -y 500 -defaultsOSRD
+preplace inst MUX_21_0 -pg 1 -lvl 1 -x 110 -y 360 -defaultsOSRD
+preplace inst MUX_21_1 -pg 1 -lvl 1 -x 110 -y 220 -defaultsOSRD
+preplace inst MUX_21_2 -pg 1 -lvl 1 -x 110 -y 500 -defaultsOSRD
+preplace inst MUX_21_3 -pg 1 -lvl 1 -x 110 -y 80 -defaultsOSRD
+preplace inst MUX_21_4 -pg 1 -lvl 2 -x 290 -y 80 -defaultsOSRD
+preplace inst MUX_21_5 -pg 1 -lvl 2 -x 290 -y 220 -defaultsOSRD
+preplace inst MUX_21_6 -pg 1 -lvl 2 -x 290 -y 500 -defaultsOSRD
+preplace inst MUX_21_7 -pg 1 -lvl 2 -x 290 -y 360 -defaultsOSRD
+preplace netloc Net 1 0 1 40 100n
+preplace netloc Net1 1 1 1 220 100n
+preplace netloc D0_1 1 0 1 30 340n
+preplace netloc D1_1 1 0 1 30 80n
+preplace netloc D2_1 1 0 1 20 360n
+preplace netloc D3_1 1 0 1 20 60n
+preplace netloc MUX_21_0_y 1 1 1 190 60n
+preplace netloc MUX_21_1_y 1 1 1 180 200n
+preplace netloc MUX_21_2_y 1 1 1 210 340n
+preplace netloc MUX_21_3_y 1 1 1 200 80n
+preplace netloc MUX_21_4_y 1 2 1 NJ 80
+preplace netloc MUX_21_5_y 1 2 1 NJ 220
+preplace netloc MUX_21_7_y 1 2 1 NJ 360
+preplace netloc MUX_21_6_y 1 2 1 NJ 500
+levelinfo -pg 1 0 110 290 380
+pagesize -pg 1 -db -bbox -sgen -70 0 450 660
+"
+}
+

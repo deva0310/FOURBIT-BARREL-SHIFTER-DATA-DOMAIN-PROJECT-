@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"barrel_shift": {
+			"proto_instances": {
+			}
+		}
+	}
+}
